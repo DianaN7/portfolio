@@ -1,0 +1,46 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.svg"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.svg"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Vue",
+    "imageSrc": "skills/vue.svg"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "NPM",
+    "imageSrc": "skills/npm.svg"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.svg"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.svg"
+  }
+]

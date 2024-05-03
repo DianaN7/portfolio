@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Surfboard",
+    "imageSrc": "projects/project-2.png",
+    "description": "Магазин для продажи и покупки серферных досок.",
+    "skills": ["БЭМ", "SCSS", "JavaScript", "Ajax", "JQuery", "Gulp"],
+    "demo": "https://www.example.com",
+    "source": "https://dianan7.github.io/Surfboard/src/"
+  },
+  {
+    "title": "Chat GPT",
+    "imageSrc": "projects/project-1.png",
+    "description": "Сайт ознакомление с chat gpt с реализацией меню-бара",
+    "skills": ["БЭМ", "CSS", "React", "Адаптивная верстка"],
+    "source": "https://dianan7.github.io/GPT_project/"
+  },
+  {
+    "title": "Restaurant",
+    "imageSrc": "projects/project-3.png",
+    "description": "Сервис для ресторана, в котором есть секции меню, а также блоки с фотогалереей и отзывами.",
+    "skills": ["БЭМ", "CSS", "React", "Адаптивная верстка"],
+    "source": "https://dianan7.github.io/restaurant/"
+  },
+  {
+    "title": "React Blog",
+    "imageSrc": "projects/project-4.png",
+    "description": "Можно создать учетную запись, авторизоваться, а также написать статью и добавить изображение.",
+    "skills": [
+      "React",
+      "Redux Toolkit2",
+      "Axios",
+      "Node",
+      "Express",
+      "MongoDB"
+    ],
+    "source": "https://blog-frontend-flame-rho.vercel.app/"
+  },
+  {
+    "title": "Quiz Box",
+    "imageSrc": "projects/project-5.png",
+    "description": "Многостраничный сервис с навигацией по выбору интересных тематических квизов.",
+    "skills": [
+      "БЭМ",
+      "CSS",
+      "Flexbox",
+      "Анимации CSS",
+      "JavaScript",
+      "Figma",
+      "Perfect Pixel"
+    ],
+    "source": "https://dianan7.github.io/quiz_box/"
+  },
+  {
+    "title": "Github Search",
+    "imageSrc": "projects/project-6.png",
+    "description": "Позволяет найти любого пользователя сервиса Github и его публичные репозитории, введя юзернейм. Репозитории можно добавить в свое избранное, а также перейти к ним на Github по прямой ссылке, просто кликнув по названию.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Redux Toolkit2",
+      "RTK Query",
+      "Tailwind",
+      "Ajax",
+      "Websocket"
+    ],
+    "source": "https://git-search-chi.vercel.app"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "role": "Frontend Developer",
+    "organisation": "Фриланс",
+    "startDate": "2023 ",
+    "endDate": "",
+    "experiences": [
+      "Выполняю заказы на верстку и разработку приложений, а также пишу свои проекты. Мои проекты написаны на стеке технологий: Frontend - JavaScript, TypeScript, фреймворк ReactJs, библиотека Redux Toolkit2, RTK Query, React Query, фреймворк VueJs, асинхронное программирование (async/await), библиотека axios: выполнение AJAX запросов, взаимодействие с сервером через классический REST API, WebSocket, система контроля версий: GIT; Backend - NodeJs, фреймворк ExpressJS, база данных MongoDB, CORS. Мои проекты можно посмотреть здесь: "
+    ]
+  }
+]
