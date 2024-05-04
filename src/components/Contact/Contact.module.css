@@ -13,6 +13,10 @@
   gap: 10px;
 }
 
+.text {
+  z-index: 1;
+}
+
 .text h2 {
   font-size: 80px;
   font-weight: 700;
@@ -48,6 +52,20 @@
   letter-spacing: 1.5px;
 }
 
+.bottomBlur {
+  position: absolute;
+  width: 45vw;
+  height: 20vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 3400px;
+  right: 55vw;
+  border-radius: 774px;
+  background: rgba(41, 66, 107, 0.893);
+  filter: blur(110px);
+  z-index: 0;
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
@@ -60,21 +78,15 @@
     align-items: center;
   }
 
+  .text h2 {
+    font-size: 47px;
+  }
+
   .links {
     align-items: center;
   }
-}
 
-.bottomBlur {
-  position: absolute;
-  width: 45vw;
-  height: 20vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 3500px;
-  right: -30vw;
-  border-radius: 774px;
-  background: rgba(41, 66, 107, 0.893);
-  filter: blur(110px);
-  z-index: 0;
+  .links a {
+    font-size: 22px;
+  }
 }

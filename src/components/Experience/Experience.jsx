@@ -53,6 +53,7 @@ export const Experience = () => {
       </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
+      <div className={styles.lastBlur} />
     </section>
   );
 };

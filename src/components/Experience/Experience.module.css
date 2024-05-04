@@ -7,6 +7,8 @@
   margin-right: 10%;
   background: linear-gradient(90deg, rgba(28, 23, 31, 1) 0%, rgb(93, 96, 116) 44%, transparent);
   /* background: linear-gradient(90deg, #666c8d 10%, rgba(25, 55, 109, 0) 100%); */
+
+  box-shadow: 0 2px 20px 0 #4c5765;
   border-radius: 15px;
   padding: 23px;
   z-index: 1;
@@ -44,7 +46,8 @@
 }
 
 .skillImageContainer {
-  /* background-color: var(--color-secondary); */  border-radius: 100%;
+  /* background-color: var(--color-secondary); */
+  border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,8 +68,8 @@
 
 .history {
   border-radius: 10px;
-  background: linear-gradient(90deg, transparent, rgb(61, 61, 77) 60%, rgba(89, 108, 129, 0.43) 100%);
-  box-shadow: 0 2px 20px 0 #97b3d6;
+  background: linear-gradient(90deg, transparent, transparent, transparent);
+  box-shadow: 0 2px 20px 0 #96aabe;
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -80,6 +83,7 @@
   gap: 17px;
   border-radius: 10px;
   padding: 24px;
+  z-index: 1;
 }
 
 .historyItem img {
@@ -93,14 +97,12 @@
 .historyItemDetails h3 {
   font-size: 30px;
   font-weight: 500;
-  /* color: rgb(59, 56, 56); */
 }
 
 .historyItemDetails p {
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 10px;
-  /* color: rgb(33, 31, 31) */
 }
 
 .historyItemDetails ul {
@@ -109,7 +111,20 @@
   font-size: 25px;
   list-style-type: disc;
   margin-left: 17px;
+}
 
+.bottomBlur {
+  position: absolute;
+  width: 45vw;
+  height: 60vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 1600px;
+  right: 1vw;
+  border-radius: 774px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(150px);
+  z-index: 0;
 }
 
 @media screen and (max-width: 830px) {
@@ -123,38 +138,78 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    z-index: 1;
   }
 
   .history {
     width: 100%;
     gap: 9px;
   }
-}
 
-.topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
+  .bottomBlur {
+    top: 1400px;
+    right: 6vw;
+    filter: blur(120px);
+  }
 
-.bottomBlur {
-  position: absolute;
-  width: 45vw;
-  height: 60vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 1600px;
-  right: -30vw;
-  border-radius: 774px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(150px);
-  z-index: 0;
+  .skillImageContainer {
+    width: 30px;
+    height: 30px;
+  }
+
+  .skillImageContainer img {
+    width: 40px;
+  }
+
+  .skill p {
+    font-size: 15px;
+  }
+
+  .content {
+    margin-top: 20px;
+  }
+
+  .historyItemDetails p {
+    font-size: 18px;
+  }
+
+  .history {
+    background: linear-gradient(90deg, transparent, transparent, transparent);
+    box-shadow: none;
+  }
+
+  .historyItem {
+    padding: 8px;
+    z-index: 1;
+  }
+
+  .topBlur {
+    position: absolute;
+    width: 45vw;
+    height: 90vw;
+    min-width: 350px;
+    min-width: 250px;
+    top: 2500px;
+    right: 2vw;
+    border-radius: 774px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(120px);
+    z-index: 0;
+  }
+
+
+  .lastBlur {
+    position: absolute;
+    width: 45vw;
+    height: 90vw;
+    min-width: 350px;
+    min-width: 250px;
+    top: 2900px;
+    right: 30vw;
+    border-radius: 774px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(120px);
+    z-index: 0;
+
+  }
 }

@@ -87,7 +87,9 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+
   }
+
 
   .title {
     margin-left: 20px;
@@ -97,5 +99,9 @@
 
   .aboutItemText {
     color: rgb(39, 31, 31);
+  }
+
+  .aboutItem p {
+    font-size: 20px;
   }
 }
