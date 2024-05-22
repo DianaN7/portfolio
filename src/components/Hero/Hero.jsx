@@ -9,9 +9,8 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, I'm Diana</h1>
         <p className={styles.description}>
-          Я начинающая фронтенд разработчица. Мне нравится узнавать что-то новое
-          в области разработки для совершенствования моих навыков написания
-          кода.
+          Я фронтенд разработчица. Мне нравится узнавать что-то новое в области
+          разработки для совершенствования моих навыков написания кода.
         </p>
         <a href="mailto:12diana13@gmail.com" className={styles.contactBtn}>
           Связаться со мной
