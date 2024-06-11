@@ -1,0 +1,17 @@
+@import "../../vars.css";
+
+#projects {
+  font-family: var(--font-roboto);
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 45vw;
+  height: 60vw;
+  min-width: 250px;
+  border-radius: 774px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(150px);
+  z-index: 0;
+  left: 1rem;
+}

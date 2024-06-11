@@ -4,13 +4,14 @@
   color: var(--color-text);
   margin-top: 120px;
   background: linear-gradient(90deg, #666c8d 10%, rgba(25, 55, 109, 0) 100%);
-
+  font-family: var(--font-roboto);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
+  align-items: center;
 }
 
 .text {

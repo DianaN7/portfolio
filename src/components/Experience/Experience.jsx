@@ -16,7 +16,7 @@ export const Experience = () => {
                 <div className={styles.skillImageContainer}>
                   <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                 </div>
-                <p>{skill.title}</p>
+                {/* <p>{skill.title}</p> */}
               </div>
             );
           })}
@@ -25,19 +25,14 @@ export const Experience = () => {
         <ul className={styles.history}>
           <li className={styles.historyItem}>
             <div className={styles.historyItemDetails}>
-              <h3>Frontend Developer, Фриланс</h3>
-              <p>2023 - </p>
+              <h3>Frontend Developer</h3>
               <p>
-                Выполняю заказы на верстку и разработку приложений, а также пишу
-                свои проекты.
-              </p>
-              <p>Мои проекты написаны на стеке технологий:</p>
-              <p>
-                Frontend - JavaScript, TypeScript, фреймворк ReactJs, библиотека
-                Redux Toolkit2, RTK Query, React Query, фреймворк VueJs,
-                асинхронное программирование (async/await), библиотека axios:
-                выполнение AJAX запросов, взаимодействие с сервером через
-                классический REST API, WebSocket, система контроля версий: GIT;
+                Frontend - HTML, CSS, адаптивная и кроссбраузерная верстка,
+                JavaScript, TypeScript, фреймворк ReactJs, библиотека Redux
+                Toolkit2, RTK Query, React Query, фреймворк VueJs, асинхронное
+                программирование (async/await), библиотека axios: выполнение
+                AJAX запросов, взаимодействие с сервером через классический REST
+                API, WebSocket, система контроля версий: GIT;
               </p>
               <p>
                 Backend - NodeJs, фреймворк ExpressJS, база данных MongoDB и

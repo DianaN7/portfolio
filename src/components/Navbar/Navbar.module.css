@@ -34,6 +34,7 @@
 }
 
 .menuItems a {
+  font-family: var(--font-roboto);
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;

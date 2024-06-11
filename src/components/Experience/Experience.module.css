@@ -1,21 +1,20 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
-  margin-top: 79px;
+  background-color: #ededed;
+  border: 3px dashed #2e3339;
+  margin-top: 220px;
   margin-left: 10%;
   margin-right: 10%;
-  background: linear-gradient(90deg, rgba(28, 23, 31, 1) 0%, rgb(93, 96, 116) 44%, transparent);
-  /* background: linear-gradient(90deg, #666c8d 10%, rgba(25, 55, 109, 0) 100%); */
-
-  box-shadow: 0 2px 20px 0 #4c5765;
   border-radius: 15px;
   padding: 23px;
-  z-index: 1;
+  margin-bottom: 100px;
+
 }
 
 .title {
-  color: var(--color-text);
+  font-family: var(--font-roboto);
+  color: rgb(63, 50, 50);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -26,15 +25,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 5px;
 
 }
 
 .skills {
-  width: 45%;
+  width: 29%;
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 15px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
 }
 
 .skill {
@@ -51,8 +53,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90px;
-  height: 90px;
+  width: 40px;
+  height: 40px;
 
 }
 
@@ -61,15 +63,14 @@
 }
 
 .skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
+  font-size: 16px;
   font-weight: 500;
 }
 
 .history {
   border-radius: 10px;
   background: linear-gradient(90deg, transparent, transparent, transparent);
-  box-shadow: 0 2px 20px 0 #96aabe;
+  /* box-shadow: 0 2px 20px 0 #96aabe; */
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -82,7 +83,7 @@
   align-items: center;
   gap: 17px;
   border-radius: 10px;
-  padding: 24px;
+  padding: 20px;
   z-index: 1;
 }
 
@@ -90,19 +91,19 @@
   width: 50px;
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
-}
+
 
 .historyItemDetails h3 {
-  font-size: 30px;
+  font-family: var(--font-roboto);
+  font-size: 26px;
   font-weight: 500;
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  font-family: var(--font-roboto);
+  font-size: 16px;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .historyItemDetails ul {
@@ -162,7 +163,7 @@
   }
 
   .skill p {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .content {
@@ -170,7 +171,7 @@
   }
 
   .historyItemDetails p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .history {
@@ -189,7 +190,7 @@
     height: 90vw;
     min-width: 350px;
     min-width: 250px;
-    top: 2500px;
+    top: 2000px;
     right: 2vw;
     border-radius: 774px;
     background: rgba(25, 55, 109, 0.7);
@@ -204,7 +205,7 @@
     height: 90vw;
     min-width: 350px;
     min-width: 250px;
-    top: 2900px;
+    top: 1700px;
     right: 30vw;
     border-radius: 774px;
     background: rgba(25, 55, 109, 0.7);

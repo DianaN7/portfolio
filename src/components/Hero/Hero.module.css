@@ -20,6 +20,7 @@
 }
 
 .title {
+  font-family: var(--font-roboto);
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 33px;
@@ -32,6 +33,7 @@
 }
 
 .description {
+  width: 80%;
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
@@ -46,6 +48,7 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 2px 0px 0 #97b3d6;
+  font-family: var(--font-roboto);
 }
 
 .heroImg {
@@ -88,7 +91,7 @@
 
 .bottomBlur {
   position: absolute;
-  width: 70vw;
+  width: 57vw;
   height: 50vw;
   min-width: 350px;
   min-width: 250px;
@@ -123,6 +126,7 @@
   }
 
   .description {
+    width: 100%;
     color: rgb(39, 31, 31);
     font-size: 24px;
   }
