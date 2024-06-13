@@ -28,11 +28,11 @@ export const Experience = () => {
               <h3>Frontend Developer</h3>
               <p>
                 Frontend - HTML, CSS, адаптивная и кроссбраузерная верстка,
-                JavaScript, TypeScript, фреймворк ReactJs, библиотека Redux
-                Toolkit2, RTK Query, React Query, фреймворк VueJs, асинхронное
-                программирование (async/await), библиотека axios: выполнение
-                AJAX запросов, взаимодействие с сервером через классический REST
-                API, WebSocket, система контроля версий: GIT;
+                JavaScript, TypeScript, ReactJs, библиотека Redux Toolkit2, RTK
+                Query, React Query,c VueJs, асинхронное программирование
+                (async/await), библиотека axios: выполнение AJAX запросов,
+                взаимодействие с сервером через классический REST API,
+                WebSocket, система контроля версий: GIT;
               </p>
               <p>
                 Backend - NodeJs, фреймворк ExpressJS, база данных MongoDB и
