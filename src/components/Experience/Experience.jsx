@@ -28,7 +28,7 @@ export const Experience = () => {
               <h3>Frontend Developer</h3>
               <p>
                 Frontend - HTML, CSS, адаптивная и кроссбраузерная верстка,
-                весртка по макетам Figma, JavaScript, TypeScript, ReactJs,
+                верстка по макетам Figma, JavaScript, TypeScript, ReactJs,
                 библиотека Redux Toolkit2, RTK Query, React Query, MobX, VueJs,
                 Pinia, взаимодействие с сервером через классический REST API,
                 WebSocket, система контроля версий: GIT;
