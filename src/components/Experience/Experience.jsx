@@ -28,19 +28,19 @@ export const Experience = () => {
               <h3>Frontend Developer</h3>
               <p>
                 Frontend - HTML, CSS, адаптивная и кроссбраузерная верстка,
-                JavaScript, TypeScript, ReactJs, библиотека Redux Toolkit2, RTK
-                Query, React Query,c VueJs, асинхронное программирование
-                (async/await), библиотека axios: выполнение AJAX запросов,
-                взаимодействие с сервером через классический REST API,
+                весртка по макетам Figma, JavaScript, TypeScript, ReactJs,
+                библиотека Redux Toolkit2, RTK Query, React Query, MobX, VueJs,
+                Pinia, взаимодействие с сервером через классический REST API,
                 WebSocket, система контроля версий: GIT;
               </p>
               <p>
-                Backend - NodeJs, фреймворк ExpressJS, база данных MongoDB и
-                MySQL.
+                Backend - NodeJs, фреймворк ExpressJS, PHP, база данных MongoDB
+                и MySQL.
               </p>
               <p>
                 Могу задеплоить приложение на облачных серверах, таких как:
-                Heroku, Render, Vercel
+                Heroku, Render, Vercel, а также создать и развернуть приложение
+                в контейнере Docker.
               </p>
             </div>
           </li>
